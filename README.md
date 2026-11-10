@@ -66,3 +66,10 @@ Também desenvolvi projetos acadêmicos envolvendo front-end, back-end, mobile e
 - **Ferramentas e Automação:** Git, GitHub, GitHub Actions
 
 </details>
+
+---
+
+### 🌐 Contato
+
+- 📧 **E-mail:** [nicolasdxv@gmail.com](mailto:nicolasdxv@gmail.com)
+- 💼 **LinkedIn:** [linkedin.com/in/nicolas-dias-xavier](https://www.linkedin.com/in/nicolas-dias-xavier/)
