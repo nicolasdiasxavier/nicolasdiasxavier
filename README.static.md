@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/static/banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/static/banner-light.svg">
-  <img alt="Nicolas Xavier — Desenvolvedor de Software Júnior" src="assets/static/banner-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/static/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/static/header-light.svg">
+  <img alt="Nicolas Xavier — Desenvolvedor de Software Júnior" src="assets/static/header-dark.svg" width="100%">
 </picture>
 
 <p align="center">
