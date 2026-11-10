@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="173" height="22" viewBox="0 0 173 22" role="img" aria-label="Django REST Framework">
+  <title>Django REST Framework</title>
+  <style>
+    text{font-family:Verdana, 'Segoe UI', Geneva, sans-serif;font-size:11px;font-weight:600}
+    .sheen{animation:sheen 26s ease-in-out infinite;animation-delay:3.50s;transform-box:fill-box;transform:translateX(-101%)}
+    @keyframes sheen{0%{transform:translateX(-101%)}3.4%{transform:translateX(101%)}3.5%,100%{transform:translateX(-101%)}}
+    *{animation:none !important}
+  </style>
+  <defs>
+    <clipPath id="c"><rect width="173" height="22" rx="11"/></clipPath>
+    <linearGradient id="s" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="173" height="22" rx="11" fill="#A30000"/>
+  <g transform="translate(8 5) scale(0.75)" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"><path d="M5 2.5C3 2.5 3.5 5 3.5 8S3 13.5 5 13.5"/><path d="M11 2.5C13 2.5 12.5 5 12.5 8S13 13.5 11 13.5"/><circle cx="8" cy="8" r="1.1" fill="#FFFFFF" stroke="none"/></g>
+  <text x="26" y="15" textLength="139" lengthAdjust="spacingAndGlyphs" fill="#FFFFFF">Django REST Framework</text>
+  <g clip-path="url(#c)"><rect class="sheen" width="173" height="22" fill="url(#s)"/></g>
+  <rect x="0.5" y="0.5" width="172" height="21" rx="10.5" fill="none" stroke="#808080" stroke-opacity="0.4"/>
+</svg>

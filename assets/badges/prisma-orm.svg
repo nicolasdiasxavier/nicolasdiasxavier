@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="22" viewBox="0 0 100 22" role="img" aria-label="Prisma ORM">
+  <title>Prisma ORM</title>
+  <style>
+    text{font-family:Verdana, 'Segoe UI', Geneva, sans-serif;font-size:11px;font-weight:600}
+    .sheen{animation:sheen 26s ease-in-out infinite;animation-delay:4.90s;transform-box:fill-box;transform:translateX(-101%)}
+    @keyframes sheen{0%{transform:translateX(-101%)}3.4%{transform:translateX(101%)}3.5%,100%{transform:translateX(-101%)}}
+    @media (prefers-reduced-motion: reduce){*{animation:none !important}}
+  </style>
+  <defs>
+    <clipPath id="c"><rect width="100" height="22" rx="11"/></clipPath>
+    <linearGradient id="s" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="22" rx="11" fill="#2D3748"/>
+  <path transform="translate(8 5) scale(0.5)" d="M21.8068 18.2848L13.5528.7565c-.207-.4382-.639-.7273-1.1286-.7541-.5023-.0293-.9523.213-1.2062.6253L2.266 15.1271c-.2773.4518-.2718 1.0091.0158 1.4555l4.3759 6.7786c.2608.4046.7127.6388 1.1823.6388.1332 0 .267-.0188.3987-.0577l12.7019-3.7568c.3891-.1151.7072-.3904.8737-.7553s.1633-.7828-.0075-1.1454zm-1.8481.7519L9.1814 22.2242c-.3292.0975-.6448-.1873-.5756-.5194l3.8501-18.4386c.072-.3448.5486-.3996.699-.0803l7.1288 15.138c.1344.2856-.019.6224-.325.7128z" fill="#FFFFFF"/>
+  <text x="26" y="15" textLength="66" lengthAdjust="spacingAndGlyphs" fill="#FFFFFF">Prisma ORM</text>
+  <g clip-path="url(#c)"><rect class="sheen" width="100" height="22" fill="url(#s)"/></g>
+  <rect x="0.5" y="0.5" width="99" height="21" rx="10.5" fill="none" stroke="#808080" stroke-opacity="0.4"/>
+</svg>
