@@ -1,6 +1,4 @@
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/static/banner-dark-mobile.svg">
-  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/static/banner-light-mobile.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/static/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/static/banner-light.svg">
   <img alt="Nicolas Xavier — Desenvolvedor de Software Júnior" src="assets/static/banner-dark.svg" width="100%">

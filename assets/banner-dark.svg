@@ -1,46 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="150" viewBox="0 0 960 150" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="100" viewBox="0 0 960 100" role="img" aria-labelledby="t d">
   <title id="t">Nicolas Xavier — Desenvolvedor de Software Júnior</title>
   <desc id="d">Desenvolvimento web e APIs REST. Manaus, AM.</desc>
   <style>
     text{font-family:'Segoe UI', Inter, system-ui, -apple-system, Helvetica, Arial, sans-serif}
-    .enter{animation:enter 1.6s cubic-bezier(.2,.7,.2,1) both;transform-origin:790px 75px;transform-box:view-box}
-    .s1{animation:spin 120s linear infinite;transform-origin:790px 75px;transform-box:view-box}
-    .s2{animation:spin 180s linear infinite reverse;transform-origin:790px 75px;transform-box:view-box}
-    .s3{animation:spin 70s linear infinite;transform-origin:790px 75px;transform-box:view-box}
-    .breathe{animation:breathe 9s ease-in-out infinite;transform-origin:790px 75px;transform-box:view-box}
+    .name{font-size:46px;font-weight:700;letter-spacing:-1px}
+    .role{font-size:22px;font-weight:500}
+    @media (max-width: 520px){.name{font-size:58px;transform:translateY(2px)}.role{font-size:30px;transform:translateY(8px)}}
+    .enter{animation:enter 1.6s cubic-bezier(.2,.7,.2,1) both;transform-origin:830px 50px;transform-box:view-box}
+    .s1{animation:spin 120s linear infinite;transform-origin:830px 50px;transform-box:view-box}
+    .s2{animation:spin 180s linear infinite reverse;transform-origin:830px 50px;transform-box:view-box}
+    .s3{animation:spin 70s linear infinite;transform-origin:830px 50px;transform-box:view-box}
+    .breathe{animation:breathe 9s ease-in-out infinite;transform-origin:830px 50px;transform-box:view-box}
     @keyframes enter{from{opacity:.45;transform:scale(.94)}to{opacity:1;transform:scale(1)}}
     @keyframes spin{to{transform:rotate(360deg)}}
     @keyframes breathe{0%,100%{opacity:.85}50%{opacity:1}}
     @media (prefers-reduced-motion: reduce){*{animation:none !important}}
   </style>
   <defs>
-    <radialGradient id="glow" cx="790" cy="75" r="184" gradientUnits="userSpaceOnUse">
+    <radialGradient id="glow" cx="830" cy="50" r="144" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#65C7FF" stop-opacity="0.3"/>
       <stop offset="1" stop-color="#65C7FF" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#65C7FF"/>
       <stop offset="1" stop-color="#9075DB"/>
     </linearGradient>
-    <clipPath id="clip"><rect width="960" height="150" rx="16"/></clipPath>
+    <clipPath id="clip"><rect width="960" height="100" rx="14"/></clipPath>
   </defs>
-  <rect width="960" height="150" rx="16" fill="#0B1020"/>
+  <rect width="960" height="100" rx="14" fill="#0B1020"/>
   <g clip-path="url(#clip)">
     <g class="enter">
-      <circle cx="790" cy="75" r="184" fill="url(#glow)" class="breathe"/>
-      <circle cx="790" cy="75" r="36" fill="none" stroke="#65C7FF" stroke-opacity="1" stroke-width="1.6"/>
-      <circle cx="790" cy="75" r="72" fill="none" stroke="#65C7FF" stroke-opacity="0.82" stroke-width="1.6"/>
-      <circle cx="790" cy="75" r="108" fill="none" stroke="#65C7FF" stroke-opacity="0.6" stroke-width="1.6"/>
-      <circle cx="790" cy="75" r="144" fill="none" stroke="#65C7FF" stroke-opacity="0.42" stroke-width="1.6"/>
-      <g class="s1"><circle cx="790" cy="75" r="102" fill="none" stroke="#9075DB" stroke-width="2" stroke-linecap="round" stroke-dasharray="141.0 499.9"/></g>
-      <g class="s2"><circle cx="790" cy="75" r="154" fill="none" stroke="#65C7FF" stroke-opacity="0.85" stroke-width="2" stroke-linecap="round" stroke-dasharray="116.1 851.5"/></g>
-      <g class="s3"><circle cx="862" cy="75" r="3.5" fill="#BDDFFF"/></g>
-      <circle cx="790" cy="75" r="3" fill="#65C7FF"/>
+      <circle cx="830" cy="50" r="144" fill="url(#glow)" class="breathe"/>
+      <circle cx="830" cy="50" r="26" fill="none" stroke="#65C7FF" stroke-opacity="1" stroke-width="1.6"/>
+      <circle cx="830" cy="50" r="52" fill="none" stroke="#65C7FF" stroke-opacity="0.82" stroke-width="1.6"/>
+      <circle cx="830" cy="50" r="78" fill="none" stroke="#65C7FF" stroke-opacity="0.6" stroke-width="1.6"/>
+      <circle cx="830" cy="50" r="104" fill="none" stroke="#65C7FF" stroke-opacity="0.42" stroke-width="1.6"/>
+      <g class="s1"><circle cx="830" cy="50" r="72" fill="none" stroke="#9075DB" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="100 392"/></g>
+      <g class="s2"><circle cx="830" cy="50" r="114" fill="none" stroke="#65C7FF" stroke-opacity="0.85" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="80 640"/></g>
+      <g class="s3"><circle cx="882" cy="50" r="3.5" fill="#BDDFFF"/></g>
+      <circle cx="830" cy="50" r="3" fill="#65C7FF"/>
     </g>
   </g>
-  <rect x="0.5" y="0.5" width="959" height="149" rx="16" fill="none" stroke="#1B2A4A"/>
-  <rect x="56" y="26" width="48" height="3" rx="1.5" fill="url(#rule)"/>
-  <text x="56" y="82" font-size="54" font-weight="700" fill="#F4F7FB" letter-spacing="-1">Nicolas Xavier</text>
-  <text x="56" y="118" font-size="25" font-weight="500" fill="#65C7FF">Desenvolvedor de Software Júnior</text>
-  
+  <rect x="0.5" y="0.5" width="959" height="99" rx="14" fill="none" stroke="#1B2A4A"/>
+  <rect x="40" y="20" width="3" height="60" rx="1.5" fill="url(#bar)"/>
+  <text class="name" x="58" y="52" fill="#F4F7FB">Nicolas Xavier</text>
+  <text class="role" x="58" y="84" fill="#65C7FF">Desenvolvedor de Software Júnior</text>
 </svg>
